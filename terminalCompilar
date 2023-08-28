@@ -1,0 +1,35 @@
+$ gcc -o strings strings.m -I /GNUstep/System/Library/Headers 
+    -L /GNUstep/System/Library/Libraries -lobjc -lgnustep-base 
+    -fconstant-string-class=NSConstantString -I/usr/include/GNUstep
+
+$ ./strings
+
+$ gcc -o stringsFunctions stringsFunctions.m -I /GNUstep/System/Library/Headers 
+    -L /GNUstep/System/Library/Libraries -lobjc -lgnustep-base 
+    -fconstant-string-class=NSConstantString -I/usr/include/GNUstep
+
+$ ./stringsFunctions
+
+$ gcc -o forEnumeration forEnumeration.m -I /GNUstep/System/Library/Headers 
+    -L /GNUstep/System/Library/Libraries -lobjc -lgnustep-base 
+    -fconstant-string-class=NSConstantString -I/usr/include/GNUstep
+
+$ ./forEnumeration
+
+$ gcc -o arrays arrays.m -I /GNUstep/System/Library/Headers 
+    -L /GNUstep/System/Library/Libraries -lobjc -lgnustep-base 
+    -fconstant-string-class=NSConstantString -I/usr/include/GNUstep
+
+$ ./arrays
+
+$ gcc -o arrayElements arrayElements.m -I /GNUstep/System/Library/Headers 
+    -L /GNUstep/System/Library/Libraries -lobjc -lgnustep-base 
+    -fconstant-string-class=NSConstantString -I/usr/include/GNUstep
+
+$ ./arrayElements
+
+$ gcc -o casting casting.m -I /GNUstep/System/Library/Headers 
+    -L /GNUstep/System/Library/Libraries -lobjc -lgnustep-base 
+    -fconstant-string-class=NSConstantString -I/usr/include/GNUstep
+
+$ ./casting

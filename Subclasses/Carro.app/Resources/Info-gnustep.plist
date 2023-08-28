@@ -1,0 +1,8 @@
+{
+  NOTE = "Automatically generated, do not edit!";
+  NSExecutable = "Carro";
+  NSMainNibFile = "";
+  NSMainStoryboardFile = "";
+  GSMainMarkupFile = "";
+  NSPrincipalClass = "NSApplication";
+}
